@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +56,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -82,8 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -96,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611679636119</updated>
-      <workItem from="1611679641577" duration="3300000" />
+      <workItem from="1611679641577" duration="3731000" />
+      <workItem from="1611683880759" duration="1403000" />
+      <workItem from="1611728086399" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -105,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611682119828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit java hello world">
+      <created>1611683135179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611683135179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, adding initial files." />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit, adding initial files." />
+    <MESSAGE value="Second commit java hello world" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit java hello world" />
   </component>
 </project>
