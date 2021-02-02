@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="Third commit Adding Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -108,7 +107,11 @@
       <updated>1611679636119</updated>
       <workItem from="1611679641577" duration="3731000" />
       <workItem from="1611683880759" duration="1403000" />
-      <workItem from="1611728086399" duration="860000" />
+      <workItem from="1611728086399" duration="2102000" />
+      <workItem from="1611744412350" duration="966000" />
+      <workItem from="1611745499143" duration="812000" />
+      <workItem from="1612283991934" duration="394000" />
+      <workItem from="1612284875742" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -124,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611683135179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Third commit Adding Dockerfile">
+      <created>1611729023301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611729023301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, adding initial files." />
     <MESSAGE value="Second commit java hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit java hello world" />
+    <MESSAGE value="Third commit Adding Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit Adding Dockerfile" />
   </component>
 </project>
