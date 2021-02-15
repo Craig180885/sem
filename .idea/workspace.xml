@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="Fixes Dockerfile Entrypoint filepath">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +162,7 @@
       <workItem from="1612338793715" duration="2675000" />
       <workItem from="1612369645121" duration="117000" />
       <workItem from="1612370783958" duration="775000" />
+      <workItem from="1613418890778" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612342810497</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixes Dockerfile Entrypoint filepath">
+      <created>1613418306387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613418306387</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +285,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, adding initial files." />
@@ -289,7 +298,8 @@
     <MESSAGE value="Code to connect to mongo db and create a file has been added to the app.java file update #2" />
     <MESSAGE value="Maven-assembly-plugin added to Pom.xml&#10;Maven package run&#10;External Jars created at C:\Users\craig\IdeaProjects\seMethods\target\seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar" />
     <MESSAGE value="pom.xml &#10;- version updated to 1.0.1&#10;dockerfile &#10;- COPY updated to reflect pom.xml change&#10;- ENRTYPOINT updated to reflect pom.xml change" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml &#10;- version updated to 1.0.1&#10;dockerfile &#10;- COPY updated to reflect pom.xml change&#10;- ENRTYPOINT updated to reflect pom.xml change" />
+    <MESSAGE value="Fixes Dockerfile Entrypoint filepath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes Dockerfile Entrypoint filepath" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
