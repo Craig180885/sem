@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.test_db/Dockerfile" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
@@ -175,7 +172,7 @@
       <workItem from="1613418890778" duration="368000" />
       <workItem from="1613480705371" duration="935000" />
       <workItem from="1613485812015" duration="1283000" />
-      <workItem from="1613487117991" duration="1853000" />
+      <workItem from="1613487117991" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -317,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613425720959</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database">
+      <created>1613489979059</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489979059</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +354,8 @@
     <MESSAGE value="Adds My Sql dockerfile component" />
     <MESSAGE value="Updates java app&#10;Updates travis.yml &#10;updates pom.xml" />
     <MESSAGE value="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method" />
+    <MESSAGE value="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
