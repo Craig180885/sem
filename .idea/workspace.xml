@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +24,7 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Craig Gordon &lt;40456374@napier.ac.uk&gt;" />
+        <option value="Craig &lt;40456374@live.napier.ac.uk&gt;" />
         <option value="craig180885-napier &lt;fizzybubbl3uch&gt;" />
       </list>
     </option>
@@ -37,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -60,10 +58,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/use-cases" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,10 +74,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Craig\IdeaProjects\sem\use-cases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Craig\IdeaProjects\sem\use-cases" />
+      <recent name="D:\Users\Craig\IdeaProjects\sem\db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -90,57 +100,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.printSalariesTestContainsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.MyTest" />
+      <option name="METHOD_NAME" value="printSalariesTestContainsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.napier.sem in seMethods" type="JUnit" factoryName="JUnit">
+      <module name="seMethods" />
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="imageTag" value="mongo:latest" />
-          <option name="command" value="" />
-          <option name="containerName" value="mongo-dbserver" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="--network se-methods" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Docker Image (2)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="imageTag" value="sha256:34a25230011bd67f7e01dda499bfd8fa3be779395d45bb8276d15205d153e4e1" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="--network se-methods" />
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="mongo:latest" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="-p 27000:27017" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="JUnit.com.napier.sem in seMethods" />
+      <item itemvalue="JUnit.MyTest" />
+      <item itemvalue="JUnit.MyTest.printSalariesTestContainsNull" />
+      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Docker Image (2)" />
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="JUnit.MyTest.printSalariesTestContainsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +210,18 @@
       <workItem from="1612306205103" duration="813000" />
       <workItem from="1612338793715" duration="2675000" />
       <workItem from="1612369645121" duration="117000" />
-      <workItem from="1612370783958" duration="1117000" />
+      <workItem from="1612370783958" duration="775000" />
+      <workItem from="1613418890778" duration="368000" />
+      <workItem from="1613480705371" duration="935000" />
+      <workItem from="1613485812015" duration="1283000" />
+      <workItem from="1613487117991" duration="2514000" />
+      <workItem from="1614199210044" duration="3965000" />
+      <workItem from="1614291140828" duration="10000" />
+      <workItem from="1616151821548" duration="866000" />
+      <workItem from="1616155668397" duration="1880000" />
+      <workItem from="1616240581155" duration="3173000" />
+      <workItem from="1616247089091" duration="1387000" />
+      <workItem from="1618344248715" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -263,18 +321,86 @@
       <option name="project" value="LOCAL" />
       <updated>1612342810497</updated>
     </task>
-    <task id="LOCAL-00015" summary="Manual roll back to step before creating release">
-      <created>1612371655755</created>
+    <task id="LOCAL-00015" summary="Fixes Dockerfile Entrypoint filepath">
+      <created>1613418306387</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1612371655755</updated>
+      <updated>1613418306387</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adds My Sql dockerfile component">
+      <created>1613422893547</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613422893547</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updates java app&#10;Updates travis.yml &#10;updates pom.xml">
+      <created>1613424130714</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613424130714</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updates java app&#10;Updates travis.yml &#10;updates pom.xml">
+      <created>1613424661237</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613424661237</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method">
+      <created>1613425714810</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613425714810</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method">
+      <created>1613425720959</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613425720959</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database">
+      <created>1613489979059</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489979059</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add use-case-4.md">
+      <created>1614199499075</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614199499075</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updates the travis yml to deploy to git hub">
+      <created>1618347265144</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618347265144</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, adding initial files." />
@@ -287,8 +413,14 @@
     <MESSAGE value="Code to connect to mongo db and create a file has been added to the app.java file update #2" />
     <MESSAGE value="Maven-assembly-plugin added to Pom.xml&#10;Maven package run&#10;External Jars created at C:\Users\craig\IdeaProjects\seMethods\target\seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar" />
     <MESSAGE value="pom.xml &#10;- version updated to 1.0.1&#10;dockerfile &#10;- COPY updated to reflect pom.xml change&#10;- ENRTYPOINT updated to reflect pom.xml change" />
-    <MESSAGE value="Manual roll back to step before creating release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manual roll back to step before creating release" />
+    <MESSAGE value="Fixes Dockerfile Entrypoint filepath" />
+    <MESSAGE value="Adds My Sql dockerfile component" />
+    <MESSAGE value="Updates java app&#10;Updates travis.yml &#10;updates pom.xml" />
+    <MESSAGE value="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method" />
+    <MESSAGE value="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database" />
+    <MESSAGE value="Add use-case-4.md" />
+    <MESSAGE value="updates the travis yml to deploy to git hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates the travis yml to deploy to git hub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,5 +431,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sem$MyTest.ic" NAME="MyTest Coverage Results" MODIFIED="1618345432155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.*</FILTER>
+    </SUITE>
   </component>
 </project>
