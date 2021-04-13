@@ -176,10 +176,10 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
       <item itemvalue="JUnit.com.napier.sem in seMethods" />
       <item itemvalue="JUnit.MyTest" />
       <item itemvalue="JUnit.MyTest.printSalariesTestContainsNull" />
-      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
