@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-1.0-SNAPSHOT.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +221,7 @@
       <workItem from="1616155668397" duration="1880000" />
       <workItem from="1616240581155" duration="3173000" />
       <workItem from="1616247089091" duration="1387000" />
-      <workItem from="1618344248715" duration="1704000" />
+      <workItem from="1618344248715" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -391,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614199499075</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="updates the travis yml to deploy to git hub">
+      <created>1618347265144</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618347265144</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +419,8 @@
     <MESSAGE value="Updates java app to have connect to db and disconnect from db methods which are used as objects in the main method" />
     <MESSAGE value="Adds Employee class with variables to represent a person&#10;Adds database query code and statements to query the my sql database" />
     <MESSAGE value="Add use-case-4.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add use-case-4.md" />
+    <MESSAGE value="updates the travis yml to deploy to git hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates the travis yml to deploy to git hub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
