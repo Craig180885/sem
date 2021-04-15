@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="" />
+    <list default="true" id="4f5ce81a-9af2-4224-9e10-a025bec9a314" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,17 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
@@ -176,10 +168,10 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
       <item itemvalue="JUnit.com.napier.sem in seMethods" />
       <item itemvalue="JUnit.MyTest" />
       <item itemvalue="JUnit.MyTest.printSalariesTestContainsNull" />
-      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
@@ -222,6 +214,7 @@
       <workItem from="1616240581155" duration="3173000" />
       <workItem from="1616247089091" duration="1387000" />
       <workItem from="1618344248715" duration="2133000" />
+      <workItem from="1618479979936" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding initial files.">
       <created>1611682119827</created>
@@ -384,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618347265144</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updates the travis yml to deploy to git hub">
+      <created>1618351460414</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618351460414</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
