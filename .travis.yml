@@ -95,8 +95,6 @@ jobs:
         - kubectl expose deployment hr --port=3306 --target-port=3306 --type=LoadBalancer
 
 stages:
-  - unit tests
-  - integration tests
   - name: GitHub Release
     if: branch = master
   - name: Google Cloud Deploy
